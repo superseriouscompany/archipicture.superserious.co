@@ -18,6 +18,7 @@
   "homepage": "https://github.com/superseriouscompany/archipicture#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
     "express": "^4.14.1",
     "stripe": "^4.15.0"
   },
