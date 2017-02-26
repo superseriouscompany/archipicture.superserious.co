@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/superseriouscompany/archipicture#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "stripe": "^4.15.0"
   },
   "devDependencies": {
     "expect": "^1.20.2",
