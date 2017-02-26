@@ -1,0 +1,26 @@
+{
+  "name": "archipicture.superserious.co",
+  "version": "1.0.0",
+  "description": "Archipicture API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/superseriouscompany/archipicture.git"
+  },
+  "author": "Neil Sarkar & Super Serious Company",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superseriouscompany/archipicture/issues"
+  },
+  "homepage": "https://github.com/superseriouscompany/archipicture#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}
