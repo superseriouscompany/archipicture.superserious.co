@@ -25,6 +25,6 @@ function callback(req, res, next) {
     if( !json.access_token ) { throw new Error(`Invalid json ${JSON.stringify(json)}`) }
     const id = shortid.generate()
     users[json.access_token] = { id: id }
-    res.redirect(`${webUrl}?id=${id}`)
+    res.redirect(`${webUrl}/?id=${id}`)
   }).catch(next);
 }
