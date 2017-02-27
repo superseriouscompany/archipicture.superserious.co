@@ -1,4 +1,6 @@
 module.exports = {
-  stripeKey: '...',
-  githubKey: '...',
+  stripeKey:       '...',
+  githubKey:       '...',
+  cloudflareEmail: '...',
+  cloudflareKey:   '...',
 }
